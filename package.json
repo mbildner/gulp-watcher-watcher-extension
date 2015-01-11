@@ -1,0 +1,22 @@
+{
+  "name": "chrome-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.10.7",
+    "gulp": "^3.8.10",
+    "gulp-concat": "^2.4.3",
+    "gulp-merge": "^0.1.0",
+    "lodash": "^2.4.1",
+    "main-bower-files": "^2.4.1",
+    "merge-stream": "^0.1.7",
+    "q": "^1.1.2"
+  }
+}
