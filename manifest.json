@@ -6,7 +6,7 @@
   "background": {
     "persistent": false,
     "scripts": [
-      "bg.js"
+      "dist/all-background.js"
     ]
   },
   "page_action": {
@@ -14,11 +14,7 @@
     "default_title": "Build-Watchers",
     "default_popup": "popup.html"
   },
-  "content_scripts": [
-    {
-      "matches": ["http://localhost/*"],
-      "js": ["app.js", "vendor.js"]
-    }
-  ],
-  "permissions": ["http://localhost/"]
+  "permissions": [
+    "declarativeContent"
+  ]
 }
